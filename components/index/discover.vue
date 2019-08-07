@@ -1,8 +1,8 @@
 <template>
   <v-container>
     <div v-show="isloaded">
-      <v-layout v-for="n in 5" :key="n">
-        <v-flex md6>
+      <v-layout v-for="n in 5" :key="n" wrap>
+        <v-flex md6 xs12>
           <v-container>
             <img
               :src="'https://picsum.photos/'+(1200+3*15)+'/'+(600+(n%6)*15)"
@@ -11,7 +11,7 @@
             />
           </v-container>
         </v-flex>
-        <v-flex md6>
+        <v-flex md6 xs12>
           <v-container>
             <h3>Lorem, ipsum dolor.</h3>
             <p>Lorem, ipsum dolo Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam natus earum sapiente expedita ea consequatur eum fugiat tempore facere eligendi, dignissimos, necessitatibus numquam id. Illo earum ex inventore numquam corporis culpa ipsa.</p>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>  
+    <img   
+    src="https://picsum.photos/500/500" alt="">
+    <img src="https://picsum.photos/500/600" alt="">   <img src="https://picsum.photos/600/500" alt="">
+    <img src="https://picsum.photos/590/600" alt=""> 
+    <img src="https://picsum.photos/500/800" alt=""> 
+    <script>
+        var k=0
+            var i = document.getElementsByTagName('img')
+              for (let index = 0; index < i.length; index++) {
+                console.log(i[index]);
+               i[index].onload=()=>{
+                   alert(++k)
+               }   
+              }
+           
+            </script>
+</body>
+</html>

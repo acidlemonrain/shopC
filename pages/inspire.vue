@@ -1,7 +1,6 @@
 <template>
   <div>
-    <discover :items="items"></discover>
-    <c></c>
+    <discover></discover>
   </div>
 </template>
 

@@ -4,11 +4,11 @@
       <search></search>
       <br />
 
-      <recomment :items="items"></recomment>
+      <recomment></recomment>
       <br />
-      <discover :items="items"></discover>
+      <discover></discover>
       <br />
-      <author-collection></author-collection>
+
       <br />
       <author-collection></author-collection>
     </v-container>

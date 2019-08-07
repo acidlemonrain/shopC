@@ -19,7 +19,7 @@
       <v-layout justify-center class="mt-2">
         <div v-for="n in 5" :key="n" class="mx-2 pointer">
           <img
-            @click="model=i"
+            @click="model=n"
             :src="'https://picsum.photos/1300/'+(600+n*25)"
             style="object-fit:cover"
             height="50px"

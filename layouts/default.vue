@@ -63,6 +63,9 @@ export default {
 };
 </script>
 <style>
+.absolute {
+  position: absolute;
+}
 .pointer {
   cursor: pointer;
 }
@@ -71,5 +74,13 @@ export default {
 }
 .rounded {
   border-radius: 50%;
+}
+.pop {
+  transition: all 0.4s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+}
+.pop:hover {
+  transform: rotate(-4deg) scale(0.9);
+  box-shadow: 19px 4px 10px rgba(0, 0, 0, 0.438);
 }
 </style>

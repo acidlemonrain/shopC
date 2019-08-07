@@ -2,12 +2,15 @@
   <div>
     <v-card flat class="pa-3">
       <div class="text-center">
-        <img
-          :src="'https://picsum.photos/1300/'+(600+3*25)"
-          class="rounded cover"
-          height="100px"
-          width="100px"
-        />
+        <router-link :to="'/user/6'">
+          <img
+            :src="'https://picsum.photos/1300/'+(600+3*25)"
+            class="rounded cover"
+            height="100px"
+            width="100px"
+          />
+        </router-link>
+
         <h3>Lemon</h3>
       </div>
       <hr />

@@ -84,3 +84,4 @@ export default {
   box-shadow: 19px 4px 10px rgba(0, 0, 0, 0.438);
 }
 </style>
+ 
